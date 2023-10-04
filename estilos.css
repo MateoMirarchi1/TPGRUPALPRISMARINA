@@ -70,7 +70,6 @@ footer{
     margin-right: 200px;
     margin-left: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 .fotos img{
     width: 400px;
@@ -89,20 +88,31 @@ footer{
     color: white;
     text-decoration: none;
     align-items: center;
+    flex-direction: column;
 }
 .cv1 img{
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    margin-bottom: 20px;
+    margin-top: 11px;
 }
 .cv2 img{
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    margin-bottom: 20px;
 }
 .textofotocv{
     display: flex;
     text-decoration: none;
+    margin-bottom: 40px;
+    background-color: #225D7E;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px;
 }
 .whatsapp{
     display: flex;
@@ -111,7 +121,7 @@ footer{
     font-size: large;
 }
 .whatsapp img{
-    width: 50px;
+    width: 70px;
     height: auto;
     margin-right: 10px;
 }
@@ -123,7 +133,7 @@ footer{
     margin-top: 15px;
 }
 .mail img{
-    width: 50px;
+    width: 70px;
     height: auto;
     margin-right: 10px;
 }

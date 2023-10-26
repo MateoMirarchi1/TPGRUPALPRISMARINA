@@ -146,3 +146,22 @@ footer{
     align-items: center;
     margin-top: 25px;
 }
+.texto1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+li{
+    background-color: rgba(59, 112, 151, 1);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    margin: 10px;
+}

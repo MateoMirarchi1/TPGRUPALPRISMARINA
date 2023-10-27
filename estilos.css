@@ -4,6 +4,7 @@ body{
     background-size: cover;
     min-width: 768px;
 }
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -43,6 +44,7 @@ a{
     flex-direction: column;
     margin-left: 10%;
     font-size: large;
+    margin-bottom: auto;
 }
 footer{
     height: auto;
@@ -62,13 +64,13 @@ footer{
 }
 .texto{
     color: white;
-    font-size: large;
     display: flex;
     text-align: center;
     justify-content: center;
     margin-right: 200px;
     margin-left: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: auto;
 }
 .fotos img{
     width: 400px;
@@ -169,25 +171,39 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 1%;
     flex-wrap: wrap;
-    background-color: rgba(59, 112, 151, 1);
-    margin-left: 60px;
-    margin-right: 60px;
-    border-radius: 20px;
+    display: flex;
 }
 .arbol img{
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 60px;
     margin: 40px;
+    width: 600px;
+    height: auto;
 }
 .logo{
     display: flex;
     justify-content: center;
+}
+.logo img{
+    display: flex;
+    justify-content: center;
     margin-top: 25px;
     height: 150px;
+    width: 150px;
     background-color: #225D7E;
     padding: 25px;
-    margin-left: 835px;
-    margin-right: 835px;
-
+    flex-wrap: wrap;
+}
+.regresar ul{
+   margin-right: 60px;
+}
+.contavances .texto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10%;
 }
